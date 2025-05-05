@@ -1,6 +1,7 @@
-Loan Calculator	HOME	EXCHANGE RATES (LIVE)	ABOUT	ERROR PAGE
-About This App
+About This App:
+
 This Loan Calculator App is a modern, single-page web application built using React JS and Material UI. It allows users to calculate loan EMIS (Equated Monthly Installments), view a detailed amortization schedule, and see real-time currency conversions of their EMI using live exchange rates.
+
 Instructions for Candidates
 Please follow these instructions to complete and submit your project:
 •	Push the entire project to a public GitHub repository.
@@ -16,6 +17,7 @@ Please follow these instructions to complete and submit your project:
 •	Once deployed, add the live deployment link in the About section of your GitHub repo.
 •	Deploy the project on any platform (e.g. Vercel, Netlify, GitHub Pages).
 e Your final GitHub repository should include a live demo link, and your code should be readable, modular, and well-structured.
+
   Features
 •	Loan EMI calculation using standard financial formulas
 •	Dynamic amortization schedule table with monthly breakdown
@@ -24,11 +26,13 @@ e Your final GitHub repository should include a live demo link, and your code sh
 •	Dark/Light mode toggle for a customizable experience
 •	Collapsible header navigation on mobile screens
 •	Fully responsive UI built with Material UI
+
 Technologies Used
 •	React (Hooks, Routing, Context API)
 •	Material UI for styling and responsive components
 •	Axios for API calls
 •	Exchange Rate API for real-time currency conversion
+
 EMI Formula Used
 The EMI (Equated Monthly Installment) is calculated using the standard formula:
 EMI	[P x R x (1+R)N] / [(1+R)N	1] Where:
@@ -37,9 +41,11 @@ EMI	[P x R x (1+R)N] / [(1+R)N	1] Where:
 •	N = Loan duration in months
 Currency Conversion API
 This app integrates with the free tier of the ExchangeRate-APl to fetch live exchange rates.
+
 API Endpoint Example:
 https://v6.exchangerate-api.com/v6/YOUR API KEY/1atest/USD
 You must register and obtain a free API key to use this endpoint. Then, replace YOUR API KEY in the app code with your actual key.
+
 Purpose of This App
 This project is designed to assess a candidate's React development skills, including:
 •	React fundamentals (state, props, hooks)
